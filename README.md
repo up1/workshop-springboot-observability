@@ -49,7 +49,7 @@ Hello from service B
 
 ### 4. Check observability
 
-Metric with Prometheus and Grafana
+#### Metric with Prometheus and Grafana
 * Check health check in each service 
   * [Service A](http://localhost:8081/actuator/health)
   * [Service B](http://localhost:8082/actuator/health)
@@ -61,10 +61,10 @@ Metric with Prometheus and Grafana
 * Check dashboard in Grafana
   * http://localhost:3000
 
-Distributed tracing with Zipkin
+#### Distributed tracing with Zipkin
 * http://localhost:9411/
 
-Centralized log with ELK stack
+#### Centralized log with ELK stack
 * Query data from Elasticsearch
   * http://localhost:9200/logstash/_search
 * Kibana
