@@ -33,6 +33,12 @@ workshop-service-b-1    "java -jar ./app.jar"    service-b           running    
 workshop-zipkin-1       "start-zipkin"           zipkin              running (healthy)   0.0.0.0:9411->9411/tc
 ```
 
+See all logs in container
+```
+$docker compose logs --follow
+```
+
+
 ### 3. Call service A -> service B
 ```
 $curl http://localhost:8081/call
