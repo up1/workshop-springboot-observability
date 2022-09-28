@@ -61,3 +61,11 @@ Metric with Prometheus and Grafana
 * Check dashboard in Grafana
   * http://localhost:3000
 
+Distributed tracing with Zipkin
+* http://localhost:9411/
+
+Centralized log with ELK stack
+* Query data from Elasticsearch
+  * http://localhost:9200/logstash/_search
+* Kibana
+  * http://localhost:5601/
